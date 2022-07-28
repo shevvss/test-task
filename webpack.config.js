@@ -11,12 +11,12 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.bundle.js',
+    publicPath: '/test-task/',
   },
 
   mode: 'development',
 
   devServer: {
-    public: 'testtask-webmarketing.herokuapp.com',
     historyApiFallback: true,
     static: path.resolve(__dirname, './dist'),
     open: true,

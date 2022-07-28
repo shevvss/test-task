@@ -1,4 +1,5 @@
 {
+  "homepage": "http://shevvss.github.io/test-task",
   "name": "testt",
   "version": "1.0.0",
   "description": "",
@@ -7,17 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve",
-    "watch": "./node_modules/.bin/webpack --watch --config webpack.dev.js"
+    "watch": "./node_modules/.bin/webpack --watch --config webpack.dev.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.2",
-    "font-awesome": "^4.7.0",
     "bulma": "^0.9.4",
     "css-loader": "^6.7.1",
+    "font-awesome": "^4.7.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "node-sass": "^7.0.1",
@@ -27,5 +29,8 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
