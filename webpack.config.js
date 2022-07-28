@@ -16,7 +16,7 @@ module.exports = {
   mode: 'development',
 
   devServer: {
-    host: '0.0.0.0',
+    host: 'localhost',
     historyApiFallback: true,
     static: path.resolve(__dirname, './dist'),
     open: true,
