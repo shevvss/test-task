@@ -39,6 +39,13 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.jpe?g$|\.gif$|\.png$|\.PNG$|\.svg$|\.woff(2)?$|\.ttf$|\.eot$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        },
+      },
     ],
   },
 
@@ -46,7 +53,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'webpack Boilerplate',
       templateParameters: require('./src/dataset.json'),
-      template: path.resolve(__dirname, './src/template.html'), // шаблон
+      template: path.resolve(__dirname, './src/template.ejs'), // шаблон
       filename: 'index.html', // название выходного файла
     }),
     new webpack.HotModuleReplacementPlugin(),
