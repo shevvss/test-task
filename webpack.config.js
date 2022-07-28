@@ -16,6 +16,7 @@ module.exports = {
   mode: 'development',
 
   devServer: {
+    host: 'testtask-webmarketing.herokuapp.com',
     historyApiFallback: true,
     static: path.resolve(__dirname, './dist'),
     open: true,
