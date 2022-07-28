@@ -16,12 +16,13 @@ module.exports = {
   mode: 'development',
 
   devServer: {
+    host: '0.0.0.0',
     historyApiFallback: true,
     static: path.resolve(__dirname, './dist'),
     open: true,
     compress: true,
     hot: true,
-    port: 8080,
+    port: process.env.PORT || 8080,
   },
 
   module: {
