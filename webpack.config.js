@@ -14,13 +14,15 @@ module.exports = {
   },
 
   mode: 'development',
+
   devServer: {
     historyApiFallback: true,
     static: path.resolve(__dirname, './dist'),
     open: true,
     compress: true,
     hot: true,
-    port: process.env.PORT,
+    port: process.env.PORT || 8080,
+    disableHostCheck: true,
   },
 
   module: {
