@@ -12,7 +12,7 @@
 <script defer src="index.bundle.js"></script></head>
 
 <body>
-  <div class="columns mt-4">
+  <div class="columns is-mobile  mt-4">
     <div class="column is-10 is-offset-1">
       <section class="hero is-small has-background-white-bis">
         <div class="hero-body">
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="columns">
+  <div class="columns is-mobile ">
     <div class="column is-10 is-offset-1">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample" class="navbar-menu is-active">
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class="columns mb-0">
+  <div class="columns is-mobile  mb-0">
     <div class="column is-10 is-offset-1 my-0 p-0">
       <nav class="breadcrumb is-small has-succeeds-separator pl-3" aria-label="breadcrumbs">
         <ul>
@@ -65,10 +65,10 @@
   </div>
 
 
-  <div class="columns mt-0 pt-0">
+  <div class="columns is-mobile  mt-0 pt-0">
     <div class="column is-10 is-offset-1">
-      <div class="columns mt-0 pt-0">
-        <div class="column is-5 is-offset-3">
+      <div class="columns is-mobile  mt-0 pt-0">
+        <div class="column is-9 is-offset-3">
           <section class="hero is-small">
             <div class="hero-body p-0">
               <p class="title">Heading Level 1</p>
@@ -80,12 +80,12 @@
   </div>
 
 
-  <div class="columns mt-0 pt-0">
+  <div class="columns is-mobile  mt-0 pt-0">
     <div class="column is-10 is-offset-1">
 
-      <div class="columns mt-0 pt-0">
+      <div class="columns is-mobile  mt-0 pt-0">
 
-        <div class="column is-3 has-background-white-bis" style="max-height: 42rem">
+        <div class="column is-3 has-background-white-bis mb-3" style="max-height: 42rem">
 
           <p class="has-text-weight-bold">26 Results Found</p>
 
@@ -160,11 +160,11 @@
           </p>
 
 
-          <div class="columns mr-0 pt-2">
+          <div class="columns is-mobile  mr-0 pt-2">
             <div class="column is-6 pl-0">
               <input class="input is-small" type="text" placeholder="min">
             </div>
-            <div class="column is-6 pr-0 is-pulled-right">
+            <div class="column is-6 pr-0">
               <input class="input is-small " type="text" placeholder="max">
             </div>
           </div>
@@ -176,13 +176,13 @@
           </p>
 
 
-          <div class="columns mr-0 pt-2">
+          <div class="columns is-mobile  mr-0 pt-2">
             <div class="column is-12 px-0">
               <input class="input is-small mr-1" type="text" placeholder="Keyword">
             </div>
           </div>
 
-          <div class="columns mr-0 ">
+          <div class="columns is-mobile  mr-0 ">
             <div class="column is-12 pr-4">
               <button class="button is-small is-fullwidth has-background-link has-text-white">Search</button>
             </div>
@@ -191,228 +191,222 @@
 
 
         <div class="column is-9 pt-0">
+          <div class="columns is-mobile  mt-0 pt-0">
 
-          <div class="columns mt-0 pt-0 is-vcentered mt-0"">
-        
-                    <div class=" column is-6 pt-0">
-            <nav class="pagination is-small" role="navigation" aria-label="pagination">
-              <ul class="pagination-list ">
-                <li><a class="pagination-link has-background-white-bis"> &lt; </a></li>
-                <li><a class="pagination-link has-background-white-bis">1</a></li>
-                <li><a class="pagination-link is-current">2</a></li>
-                <li><a class="pagination-link has-background-white-bis is-disabled"> &gt; </a></li>
-              </ul>
-            </nav>
+            <div class=" column is-6 pt-0">
+              <nav class="pagination is-small" role="navigation" aria-label="pagination">
+                <ul class="pagination-list ">
+                  <li><a class="pagination-link has-background-white-bis"> &lt; </a></li>
+                  <li><a class="pagination-link has-background-white-bis">1</a></li>
+                  <li><a class="pagination-link is-current">2</a></li>
+                  <li><a class="pagination-link has-background-white-bis is-disabled"> &gt; </a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="column is-6 pt-0">
+              <div class="dropdown is-pulled-right is-align-items-center  ">
+                <span class="is-align-items-center mr-2">Sort by</span>
+                <div class="dropdown-trigger">
+                  <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span class="has-text-grey-lighter">Sort options</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="column is-6 pt-0">
-            <div class="dropdown is-pulled-right is-align-items-center  ">
-              <span class="is-align-items-center mr-2">Sort by</span>
-              <div class="dropdown-trigger">
-                <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
-                  <span class="has-text-grey-lighter">Sort options</span>
-                  <span class="icon is-small">
-                    <i class="fas fa-chevron-down"></i>
-                  </span>
-                </button>
+
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
               </div>
-            </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF XF 440 6X2 SSC Intarder Standklima Liftachse ACC Euro 6</strong> <small class="is-pulled-right">25900 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2014 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 486647 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">6x2 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF XF 460 SSC 6X2 SSC ACC Liftachse Intarder Euro 6</strong> <small class="is-pulled-right">29900 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2016 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 554317 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">6x2 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF CF 75.310 + Manual</strong> <small class="is-pulled-right">7950 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2006 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 1026087 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">4x4 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF CF 65.300 + Euro 5 + lift</strong> <small class="is-pulled-right">25950 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2014 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 537307 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">4x2 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF XF 105.410 + Combi floor + Euro 5</strong> <small class="is-pulled-right">19500 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2009 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 1142998 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">4x2 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <div class="box">
+            <article class="media ">
+              <div class="media-left is-flex 
+                    is-align-items-flex-end 
+                    is-flex-wrap-wrap">
+                <figure class="image is-128x128 ">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>DAF 105 XF 460 6x2, EURO 5, Airco, Combi</strong> <small class="is-pulled-right">18750 EUR</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+                <br>
+                <div class="level is-mobile ">
+                  <div class="level-left ">
+                    <span class="tag has-background-grey-lighter mr-2 ">2012 </span>
+                    <span class="tag has-background-grey-lighter mr-2"> 897000 km </span>
+                    <span class="tag has-background-grey-lighter mr-2">6x2 </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
 
         </div>
-
-
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF XF 440 6X2 SSC Intarder Standklima Liftachse ACC Euro 6</strong> <small class="is-pulled-right">25900 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2014 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 486647 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">6x2 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF XF 460 SSC 6X2 SSC ACC Liftachse Intarder Euro 6</strong> <small class="is-pulled-right">29900 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2016 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 554317 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">6x2 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF CF 75.310 + Manual</strong> <small class="is-pulled-right">7950 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2006 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 1026087 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">4x4 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF CF 65.300 + Euro 5 + lift</strong> <small class="is-pulled-right">25950 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2014 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 537307 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">4x2 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF XF 105.410 + Combi floor + Euro 5</strong> <small class="is-pulled-right">19500 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2009 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 1142998 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">4x2 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
-        <div class="box">
-          <article class="media ">
-            <div class="media-left is-flex 
-                    is-align-items-flex-end 
-                    is-flex-wrap-wrap">
-              <figure class="image is-128x128 ">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>DAF 105 XF 460 6x2, EURO 5, Airco, Combi</strong> <small class="is-pulled-right">18750 EUR</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-              <br>
-              <div class="level is-mobile ">
-                <div class="level-left ">
-                  <span class="tag has-background-grey-lighter mr-2 ">2012 </span>
-                  <span class="tag has-background-grey-lighter mr-2"> 897000 km </span>
-                  <span class="tag has-background-grey-lighter mr-2">6x2 </span>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        
 
       </div>
 
     </div>
-
-
-
-
-
-  </div>
   </div>
 
-  <div class="columns mt-0 pt-0">
+  <div class="columns is-mobile  mt-0 pt-0">
     <div class="column is-10 is-offset-1">
 
-      <div class="columns mt-0 pt-0 is-vcentered"">
+      <div class="columns is-mobile  mt-0 pt-0 is-vcentered"">
 
             <div class=" column is-5 is-offset-3">
         <nav class="pagination is-small" role="navigation" aria-label="pagination">
@@ -446,9 +440,9 @@
 
 
 
-  <div class="columns mt-0 pt-0">
+  <div class="columns is-mobile  mt-0 pt-0">
     <div class="column is-10 is-offset-1">
-      <div class="columns mt-0 pt-0">
+      <div class="columns is-mobile  mt-0 pt-0">
         <div class="column is-6 is-offset-3">
           <div class="content">
             
@@ -464,15 +458,15 @@
     </div>
   </div>
 
-  <div class="columns mt-4">
+  <div class="columns is-mobile  mt-4">
     <div class="column is-10 is-offset-1">
 
-      <div class="columns mt-0 pt-0">
+      <div class="columns is-mobile  mt-0 pt-0">
         <div class="column is-3 has-background-white-bis">
 
           <p class="has-text-weight-bold mb-3 is-size-4">Logo / Company Name</p>
 
-          <div class="columns mb-1">
+          <div class="columns is-mobile  mb-1">
             <div class="column is-1">
               <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.54 21.957L7.09468 21.4569C7.03063 21.385 5.50928 19.6691 3.89322 17.2402C1.69972 13.9432 0.459142 11.0522 0.206146 8.64713C0.164247 8.29952 0.14386 7.98648 0.14386 7.69023C0.14386 3.42625 3.46187 -0.0429688 7.54016 -0.0429688C11.6172 -0.0429688 14.9352 3.42558 14.9365 7.68889C14.9365 7.97691 14.9165 8.28592 14.8755 8.63336C14.6281 11.0393 13.3891 13.9331 11.1927 17.2345C9.57456 19.6664 8.04952 21.385 7.98547 21.457L7.54 21.957ZM7.54016 1.22964C4.13305 1.22964 1.361 4.12802 1.361 7.6904C1.361 7.93411 1.3785 8.19663 1.41446 8.49271L1.41559 8.50345C1.87743 12.9176 6.13712 18.374 7.54032 20.0657C8.94544 18.3728 13.2146 12.9077 13.6657 8.49254L13.667 8.4818C13.7026 8.18068 13.7193 7.92874 13.7193 7.68906C13.7182 4.12752 10.9461 1.22964 7.54016 1.22964ZM7.54016 12.8918C4.79717 12.8918 2.56547 10.5584 2.56547 7.6904C2.56547 4.8224 4.79717 2.489 7.54016 2.489C10.2825 2.489 12.5136 4.8224 12.5136 7.6904C12.5136 10.5584 10.2825 12.8918 7.54016 12.8918ZM7.54016 3.76178C5.46835 3.76178 3.78277 5.52417 3.78277 7.6904C3.78277 9.85663 5.46835 11.619 7.54016 11.619C9.61133 11.619 11.2964 9.85663 11.2964 7.6904C11.2964 5.52417 9.61133 3.76178 7.54016 3.76178Z" fill="#4F4F4F" />
@@ -485,7 +479,7 @@
             </div>
           </div>
 
-          <div class="columns">
+          <div class="columns is-mobile ">
             <div class="column is-1 ">
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.8166 8.09832C11.2263 7.50798 10.2657 7.50798 9.6754 8.09832L9.02977 8.74399C7.42659 7.87038 6.12927 6.57299 5.25551 4.96972L5.90114 4.32405C6.49165 3.7337 6.49165 2.77307 5.90114 2.18272L4.16128 0.442762C3.57097 -0.147587 2.61039 -0.147587 2.02008 0.442762L0.628276 1.83465C-0.168972 2.63194 -0.208744 4.00262 0.516229 5.69433C1.14571 7.16313 2.29767 8.77751 3.75993 10.2399C5.22219 11.7022 6.83648 12.8542 8.3052 13.4837C9.1089 13.8282 9.83993 14 10.4716 14C11.1696 14 11.7461 13.7902 12.1647 13.3717L13.5565 11.9796V11.9798C13.8425 11.6937 14 11.3135 14 10.9091C14 10.5045 13.8425 10.1244 13.5565 9.83848L11.8166 8.09832ZM11.0672 12.2742C10.8397 12.5017 10.1399 12.5815 8.91671 12.0573C7.62504 11.5037 6.18337 10.4684 4.85739 9.14234C3.5314 7.81627 2.49633 6.37472 1.94276 5.08298C1.41846 3.85968 1.4982 3.1597 1.72573 2.93216L3.09088 1.56693L4.77704 3.25338L3.96889 4.06178C3.60347 4.42722 3.51525 4.98143 3.74964 5.44095C4.81216 7.52453 6.4751 9.18756 8.55856 10.2502C9.01826 10.4846 9.57244 10.3965 9.93785 10.0309L10.746 9.22269L12.4324 10.9091L11.0672 12.2742Z" fill="#4F4F4F" />
@@ -497,27 +491,31 @@
               +38 958 755-00-00
             </div>
           </div>
-          <svg width="1140" height="44" viewBox="0 0 1140 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="15" cy="15" r="14.5" stroke="#828282" />
-            <path d="M16.0127 22.4721H13.6059C13.2038 22.4721 12.8768 22.1605 12.8768 21.7775V16.6057H11.4726C11.0706 16.6057 10.7436 16.294 10.7436 15.9112V13.695C10.7436 13.312 11.0706 13.0005 11.4726 13.0005H12.8768V11.8907C12.8768 10.7904 13.2395 9.85418 13.9255 9.18356C14.6147 8.50988 15.5777 8.15387 16.7106 8.15387L18.5462 8.15671C18.9475 8.15737 19.274 8.46892 19.274 8.85125V10.9089C19.274 11.2919 18.9471 11.6034 18.5452 11.6034L17.3093 11.6039C16.9324 11.6039 16.8364 11.6758 16.8159 11.6979C16.7821 11.7345 16.7418 11.838 16.7418 12.1236V13.0004H18.4523C18.5811 13.0004 18.7058 13.0306 18.813 13.0877C19.0443 13.2108 19.1881 13.4436 19.1881 13.6951L19.1872 15.9113C19.1872 16.294 18.8601 16.6056 18.4581 16.6056H16.7418V21.7775C16.7418 22.1605 16.4147 22.4721 16.0127 22.4721ZM13.7579 21.6327H15.8606V16.2299C15.8606 15.9742 16.0791 15.7662 16.3474 15.7662H18.3061L18.3069 13.8399H16.3473C16.0789 13.8399 15.8606 13.6319 15.8606 13.3762V12.1236C15.8606 11.7957 15.8956 11.4227 16.1554 11.1424C16.4694 10.8036 16.9642 10.7645 17.3091 10.7645L18.3929 10.764V8.99588L16.7099 8.99326C14.8893 8.99326 13.7579 10.1036 13.7579 11.8907V13.3762C13.7579 13.6318 13.5396 13.8399 13.2713 13.8399H11.6247V15.7662H13.2713C13.5396 15.7662 13.7579 15.9742 13.7579 16.2299V21.6327ZM18.5445 8.9961H18.5446H18.5445Z" fill="#828282" />
-            <circle cx="55" cy="15" r="14.5" stroke="#828282" />
-            <path d="M58.4396 7.5H51.5604C49.3214 7.5 47.5 9.32144 47.5 11.5604V18.4397C47.5 20.6785 49.3214 22.5 51.5604 22.5H58.4397C60.6785 22.5 62.5 20.6785 62.5 18.4397V11.5604C62.5 9.32144 60.6785 7.5 58.4396 7.5V7.5ZM61.6206 18.4397C61.6206 20.1936 60.1936 21.6206 58.4396 21.6206H51.5604C49.8063 21.6206 48.3794 20.1936 48.3794 18.4397V11.5604C48.3794 9.80632 49.8063 8.37936 51.5604 8.37936H58.4397C60.1936 8.37936 61.6206 9.80632 61.6206 11.5604V18.4397Z" fill="#828282" />
-            <path d="M55 10.8986C52.7384 10.8986 50.8986 12.7384 50.8986 15C50.8986 17.2616 52.7384 19.1014 55 19.1014C57.2616 19.1014 59.1014 17.2616 59.1014 15C59.1014 12.7384 57.2616 10.8986 55 10.8986ZM55 18.2221C53.2234 18.2221 51.7779 16.7767 51.7779 15C51.7779 13.2234 53.2234 11.7779 55 11.7779C56.7767 11.7779 58.2221 13.2234 58.2221 15C58.2221 16.7767 56.7767 18.2221 55 18.2221Z" fill="#828282" />
-            <path d="M59.1995 9.44196C58.5311 9.44196 57.9875 9.98566 57.9875 10.6539C57.9875 11.3222 58.5311 11.8659 59.1995 11.8659C59.8678 11.8659 60.4115 11.3222 60.4115 10.6539C60.4115 9.98555 59.8678 9.44196 59.1995 9.44196ZM59.1995 10.9864C59.0161 10.9864 58.8669 10.8372 58.8669 10.6539C58.8669 10.4704 59.0161 10.3213 59.1995 10.3213C59.3829 10.3213 59.5322 10.4704 59.5322 10.6539C59.5322 10.8372 59.3829 10.9864 59.1995 10.9864Z" fill="#828282" />
-            <circle cx="95" cy="15" r="14.5" stroke="#828282" />
-            <path d="M93.0445 21.8182C90.3134 21.8182 88.1549 21.3366 87.1222 20.4971L87.1021 20.4807L87.0838 20.4623C86.8385 20.2145 86.7581 19.8896 86.8635 19.5708L86.8731 19.5443C87.0009 19.2216 87.3142 19.0043 87.6536 19.0023C88.3523 18.9901 88.9635 18.906 89.5182 18.7428C88.6334 18.3275 88.0188 17.6084 87.6531 16.5675C87.5302 16.2429 87.6363 15.883 87.9197 15.6684C87.9896 15.6153 88.0686 15.5753 88.1523 15.5484C87.6606 14.9756 87.2974 14.3237 87.0941 13.6343L87.0877 13.6129L87.0833 13.5909C87.0143 13.2423 87.1687 12.8838 87.4518 12.7294C87.5705 12.6606 87.6994 12.6249 87.8289 12.6219C87.6893 12.3185 87.5878 12.007 87.5277 11.6936C87.3606 10.8251 87.4984 9.95446 87.9372 9.10589L88.0386 8.901C88.1199 8.73705 88.2752 8.62188 88.4543 8.59252C88.6333 8.56328 88.8168 8.62301 88.945 8.75243L89.1299 8.93931C90.5906 10.485 91.899 11.2184 94.161 11.7202C94.262 10.8437 94.6374 10.0291 95.2431 9.38791C95.9638 8.62503 96.9262 8.19696 97.9531 8.18235H97.9598C98.709 8.18235 99.6383 8.61407 100.2 8.91851C100.683 8.75923 101.263 8.51263 101.866 8.25191C102.148 8.11833 102.496 8.17945 102.718 8.40325C102.935 8.62264 102.995 8.932 102.88 9.23266C102.836 9.35578 102.786 9.47662 102.731 9.59482C102.814 9.63301 102.889 9.6848 102.953 9.74919C103.146 9.94388 103.226 10.2486 103.158 10.5256L103.15 10.5519C102.919 11.3032 102.476 11.9151 101.889 12.2992C101.791 17.5666 97.861 21.8182 93.0445 21.8182ZM88.0424 19.9576C89.0156 20.5133 90.8701 20.8495 93.0445 20.8495C95.1351 20.8495 97.1079 19.9436 98.5994 18.2987C100.103 16.6402 100.931 14.4379 100.931 12.0973V12.071C100.931 11.859 101.047 11.6656 101.233 11.566C101.61 11.3643 101.916 11.0207 102.115 10.5813C101.91 10.6139 101.701 10.5308 101.574 10.3577C101.425 10.1565 101.423 9.88465 101.569 9.68165C101.648 9.57202 101.72 9.45797 101.783 9.34003C101.263 9.56067 100.769 9.75851 100.339 9.88995C100.184 9.93758 100.01 9.91893 99.8673 9.83866C99.1034 9.40908 98.3919 9.15227 97.9629 9.15101C96.38 9.17545 95.093 10.5438 95.093 12.2029C95.093 12.3744 95.0176 12.5352 94.8864 12.6442C94.755 12.7531 94.5842 12.7967 94.4175 12.7634C91.8092 12.2447 90.2636 11.467 88.6564 9.83677C88.426 10.3939 88.3631 10.955 88.4696 11.5091C88.5776 12.0703 88.8649 12.6327 89.3005 13.1354C89.466 13.3262 89.488 13.5991 89.3551 13.8145C89.2228 14.0291 88.9712 14.1294 88.7294 14.064C88.5404 14.0128 88.3666 13.9457 88.2018 13.8593C88.5375 14.5954 89.1149 15.2761 89.8408 15.7781C90.0511 15.9237 90.139 16.195 90.0546 16.4379C89.9701 16.6813 89.734 16.8379 89.4789 16.8188C89.2008 16.798 88.9545 16.7447 88.7278 16.6548C89.1348 17.4914 89.7851 17.9517 90.787 18.1277C91.0256 18.1696 91.2113 18.3598 91.2493 18.6008C91.2874 18.8419 91.1691 19.0808 90.9553 19.1954C90.1013 19.6523 89.168 19.8975 88.0424 19.9576Z" fill="#828282" />
-            <circle cx="135" cy="15" r="14.5" stroke="#828282" />
-            <g clip-path="url(#clip0_2_0)">
-              <path d="M137.309 14.3259L133.995 12.5127C133.804 12.4085 133.579 12.4124 133.392 12.523C133.206 12.6338 133.094 12.8295 133.094 13.0467V16.642C133.094 16.8582 133.205 17.0535 133.391 17.1644C133.487 17.2223 133.595 17.2514 133.703 17.2514C133.801 17.2514 133.9 17.227 133.991 17.178L137.305 15.3961C137.502 15.2902 137.625 15.0857 137.625 14.8622C137.626 14.6387 137.505 14.4333 137.309 14.3259ZM133.973 16.1897V13.5026L136.45 14.8579L133.973 16.1897Z" fill="#828282" />
-              <path d="M142.39 11.9979L142.389 11.991C142.376 11.8703 142.25 10.7964 141.728 10.2501C141.124 9.60766 140.44 9.52961 140.111 9.49219C140.084 9.4891 140.059 9.48624 140.037 9.48326L140.01 9.48051C138.027 9.33632 135.033 9.31664 135.003 9.31652L135 9.31641L134.997 9.31652C134.967 9.31664 131.973 9.33632 129.972 9.48051L129.945 9.48326C129.924 9.48612 129.901 9.48875 129.875 9.49173C129.55 9.52927 128.873 9.60743 128.268 10.2731C127.771 10.8135 127.627 11.8644 127.612 11.9825L127.61 11.9979C127.606 12.0481 127.5 13.2441 127.5 14.4448V15.5673C127.5 16.768 127.606 17.964 127.61 18.0144L127.611 18.0219C127.624 18.1407 127.75 19.1949 128.27 19.7414C128.837 20.3624 129.555 20.4445 129.941 20.4887C130.002 20.4957 130.054 20.5016 130.09 20.5079L130.125 20.5127C131.27 20.6217 134.859 20.6754 135.012 20.6775L135.016 20.6776L135.021 20.6775C135.051 20.6774 138.045 20.6577 140.028 20.5135L140.055 20.5108C140.08 20.5075 140.108 20.5045 140.139 20.5013C140.462 20.467 141.135 20.3957 141.732 19.739C142.229 19.1985 142.373 18.1476 142.388 18.0296L142.39 18.0143C142.394 17.9639 142.5 16.768 142.5 15.5673V14.4448C142.5 13.2441 142.394 12.0482 142.39 11.9979ZM141.621 15.5673C141.621 16.6786 141.524 17.8231 141.515 17.9282C141.477 18.2176 141.326 18.8825 141.084 19.1459C140.71 19.5568 140.326 19.5975 140.046 19.6272C140.012 19.6307 139.981 19.6342 139.952 19.6377C138.034 19.7764 135.153 19.7977 135.02 19.7985C134.871 19.7963 131.334 19.7422 130.224 19.6391C130.167 19.6298 130.105 19.6227 130.041 19.6154C129.712 19.5778 129.262 19.5263 128.916 19.1459L128.908 19.1372C128.67 18.8892 128.523 18.2674 128.486 17.9316C128.479 17.8522 128.379 16.6942 128.379 15.5673V14.4448C128.379 13.3348 128.476 12.1915 128.485 12.0843C128.53 11.7434 128.684 11.1187 128.916 10.8663C129.301 10.4428 129.707 10.3959 129.976 10.3649C130.001 10.3619 130.025 10.3592 130.047 10.3563C131.993 10.2169 134.896 10.1962 135 10.1954C135.104 10.1961 138.006 10.2169 139.934 10.3563C139.958 10.3593 139.984 10.3623 140.012 10.3655C140.288 10.397 140.705 10.4446 141.088 10.8531L141.092 10.8569C141.33 11.1049 141.477 11.7375 141.514 12.08C141.521 12.155 141.621 13.3155 141.621 14.4448V15.5673Z" fill="#828282" />
-            </g>
-            <defs>
-              <clipPath id="clip0_2_0">
-                <rect width="15" height="15" fill="white" transform="translate(127.5 7.5)" />
-              </clipPath>
-            </defs>
-          </svg>
 
+          <div class="columns is-mobile  mt-0 pt-0">
+            <div class="column is-12 pt-0">
+              <svg width="180" height="44" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="#828282" />
+                <path d="M16.0127 22.4721H13.6059C13.2038 22.4721 12.8768 22.1605 12.8768 21.7775V16.6057H11.4726C11.0706 16.6057 10.7436 16.294 10.7436 15.9112V13.695C10.7436 13.312 11.0706 13.0005 11.4726 13.0005H12.8768V11.8907C12.8768 10.7904 13.2395 9.85418 13.9255 9.18356C14.6147 8.50988 15.5777 8.15387 16.7106 8.15387L18.5462 8.15671C18.9475 8.15737 19.274 8.46892 19.274 8.85125V10.9089C19.274 11.2919 18.9471 11.6034 18.5452 11.6034L17.3093 11.6039C16.9324 11.6039 16.8364 11.6758 16.8159 11.6979C16.7821 11.7345 16.7418 11.838 16.7418 12.1236V13.0004H18.4523C18.5811 13.0004 18.7058 13.0306 18.813 13.0877C19.0443 13.2108 19.1881 13.4436 19.1881 13.6951L19.1872 15.9113C19.1872 16.294 18.8601 16.6056 18.4581 16.6056H16.7418V21.7775C16.7418 22.1605 16.4147 22.4721 16.0127 22.4721ZM13.7579 21.6327H15.8606V16.2299C15.8606 15.9742 16.0791 15.7662 16.3474 15.7662H18.3061L18.3069 13.8399H16.3473C16.0789 13.8399 15.8606 13.6319 15.8606 13.3762V12.1236C15.8606 11.7957 15.8956 11.4227 16.1554 11.1424C16.4694 10.8036 16.9642 10.7645 17.3091 10.7645L18.3929 10.764V8.99588L16.7099 8.99326C14.8893 8.99326 13.7579 10.1036 13.7579 11.8907V13.3762C13.7579 13.6318 13.5396 13.8399 13.2713 13.8399H11.6247V15.7662H13.2713C13.5396 15.7662 13.7579 15.9742 13.7579 16.2299V21.6327ZM18.5445 8.9961H18.5446H18.5445Z" fill="#828282" />
+                <circle cx="55" cy="15" r="14.5" stroke="#828282" />
+                <path d="M58.4396 7.5H51.5604C49.3214 7.5 47.5 9.32144 47.5 11.5604V18.4397C47.5 20.6785 49.3214 22.5 51.5604 22.5H58.4397C60.6785 22.5 62.5 20.6785 62.5 18.4397V11.5604C62.5 9.32144 60.6785 7.5 58.4396 7.5V7.5ZM61.6206 18.4397C61.6206 20.1936 60.1936 21.6206 58.4396 21.6206H51.5604C49.8063 21.6206 48.3794 20.1936 48.3794 18.4397V11.5604C48.3794 9.80632 49.8063 8.37936 51.5604 8.37936H58.4397C60.1936 8.37936 61.6206 9.80632 61.6206 11.5604V18.4397Z" fill="#828282" />
+                <path d="M55 10.8986C52.7384 10.8986 50.8986 12.7384 50.8986 15C50.8986 17.2616 52.7384 19.1014 55 19.1014C57.2616 19.1014 59.1014 17.2616 59.1014 15C59.1014 12.7384 57.2616 10.8986 55 10.8986ZM55 18.2221C53.2234 18.2221 51.7779 16.7767 51.7779 15C51.7779 13.2234 53.2234 11.7779 55 11.7779C56.7767 11.7779 58.2221 13.2234 58.2221 15C58.2221 16.7767 56.7767 18.2221 55 18.2221Z" fill="#828282" />
+                <path d="M59.1995 9.44196C58.5311 9.44196 57.9875 9.98566 57.9875 10.6539C57.9875 11.3222 58.5311 11.8659 59.1995 11.8659C59.8678 11.8659 60.4115 11.3222 60.4115 10.6539C60.4115 9.98555 59.8678 9.44196 59.1995 9.44196ZM59.1995 10.9864C59.0161 10.9864 58.8669 10.8372 58.8669 10.6539C58.8669 10.4704 59.0161 10.3213 59.1995 10.3213C59.3829 10.3213 59.5322 10.4704 59.5322 10.6539C59.5322 10.8372 59.3829 10.9864 59.1995 10.9864Z" fill="#828282" />
+                <circle cx="95" cy="15" r="14.5" stroke="#828282" />
+                <path d="M93.0445 21.8182C90.3134 21.8182 88.1549 21.3366 87.1222 20.4971L87.1021 20.4807L87.0838 20.4623C86.8385 20.2145 86.7581 19.8896 86.8635 19.5708L86.8731 19.5443C87.0009 19.2216 87.3142 19.0043 87.6536 19.0023C88.3523 18.9901 88.9635 18.906 89.5182 18.7428C88.6334 18.3275 88.0188 17.6084 87.6531 16.5675C87.5302 16.2429 87.6363 15.883 87.9197 15.6684C87.9896 15.6153 88.0686 15.5753 88.1523 15.5484C87.6606 14.9756 87.2974 14.3237 87.0941 13.6343L87.0877 13.6129L87.0833 13.5909C87.0143 13.2423 87.1687 12.8838 87.4518 12.7294C87.5705 12.6606 87.6994 12.6249 87.8289 12.6219C87.6893 12.3185 87.5878 12.007 87.5277 11.6936C87.3606 10.8251 87.4984 9.95446 87.9372 9.10589L88.0386 8.901C88.1199 8.73705 88.2752 8.62188 88.4543 8.59252C88.6333 8.56328 88.8168 8.62301 88.945 8.75243L89.1299 8.93931C90.5906 10.485 91.899 11.2184 94.161 11.7202C94.262 10.8437 94.6374 10.0291 95.2431 9.38791C95.9638 8.62503 96.9262 8.19696 97.9531 8.18235H97.9598C98.709 8.18235 99.6383 8.61407 100.2 8.91851C100.683 8.75923 101.263 8.51263 101.866 8.25191C102.148 8.11833 102.496 8.17945 102.718 8.40325C102.935 8.62264 102.995 8.932 102.88 9.23266C102.836 9.35578 102.786 9.47662 102.731 9.59482C102.814 9.63301 102.889 9.6848 102.953 9.74919C103.146 9.94388 103.226 10.2486 103.158 10.5256L103.15 10.5519C102.919 11.3032 102.476 11.9151 101.889 12.2992C101.791 17.5666 97.861 21.8182 93.0445 21.8182ZM88.0424 19.9576C89.0156 20.5133 90.8701 20.8495 93.0445 20.8495C95.1351 20.8495 97.1079 19.9436 98.5994 18.2987C100.103 16.6402 100.931 14.4379 100.931 12.0973V12.071C100.931 11.859 101.047 11.6656 101.233 11.566C101.61 11.3643 101.916 11.0207 102.115 10.5813C101.91 10.6139 101.701 10.5308 101.574 10.3577C101.425 10.1565 101.423 9.88465 101.569 9.68165C101.648 9.57202 101.72 9.45797 101.783 9.34003C101.263 9.56067 100.769 9.75851 100.339 9.88995C100.184 9.93758 100.01 9.91893 99.8673 9.83866C99.1034 9.40908 98.3919 9.15227 97.9629 9.15101C96.38 9.17545 95.093 10.5438 95.093 12.2029C95.093 12.3744 95.0176 12.5352 94.8864 12.6442C94.755 12.7531 94.5842 12.7967 94.4175 12.7634C91.8092 12.2447 90.2636 11.467 88.6564 9.83677C88.426 10.3939 88.3631 10.955 88.4696 11.5091C88.5776 12.0703 88.8649 12.6327 89.3005 13.1354C89.466 13.3262 89.488 13.5991 89.3551 13.8145C89.2228 14.0291 88.9712 14.1294 88.7294 14.064C88.5404 14.0128 88.3666 13.9457 88.2018 13.8593C88.5375 14.5954 89.1149 15.2761 89.8408 15.7781C90.0511 15.9237 90.139 16.195 90.0546 16.4379C89.9701 16.6813 89.734 16.8379 89.4789 16.8188C89.2008 16.798 88.9545 16.7447 88.7278 16.6548C89.1348 17.4914 89.7851 17.9517 90.787 18.1277C91.0256 18.1696 91.2113 18.3598 91.2493 18.6008C91.2874 18.8419 91.1691 19.0808 90.9553 19.1954C90.1013 19.6523 89.168 19.8975 88.0424 19.9576Z" fill="#828282" />
+                <circle cx="135" cy="15" r="14.5" stroke="#828282" />
+                <g clip-path="url(#clip0_2_0)">
+                  <path d="M137.309 14.3259L133.995 12.5127C133.804 12.4085 133.579 12.4124 133.392 12.523C133.206 12.6338 133.094 12.8295 133.094 13.0467V16.642C133.094 16.8582 133.205 17.0535 133.391 17.1644C133.487 17.2223 133.595 17.2514 133.703 17.2514C133.801 17.2514 133.9 17.227 133.991 17.178L137.305 15.3961C137.502 15.2902 137.625 15.0857 137.625 14.8622C137.626 14.6387 137.505 14.4333 137.309 14.3259ZM133.973 16.1897V13.5026L136.45 14.8579L133.973 16.1897Z" fill="#828282" />
+                  <path d="M142.39 11.9979L142.389 11.991C142.376 11.8703 142.25 10.7964 141.728 10.2501C141.124 9.60766 140.44 9.52961 140.111 9.49219C140.084 9.4891 140.059 9.48624 140.037 9.48326L140.01 9.48051C138.027 9.33632 135.033 9.31664 135.003 9.31652L135 9.31641L134.997 9.31652C134.967 9.31664 131.973 9.33632 129.972 9.48051L129.945 9.48326C129.924 9.48612 129.901 9.48875 129.875 9.49173C129.55 9.52927 128.873 9.60743 128.268 10.2731C127.771 10.8135 127.627 11.8644 127.612 11.9825L127.61 11.9979C127.606 12.0481 127.5 13.2441 127.5 14.4448V15.5673C127.5 16.768 127.606 17.964 127.61 18.0144L127.611 18.0219C127.624 18.1407 127.75 19.1949 128.27 19.7414C128.837 20.3624 129.555 20.4445 129.941 20.4887C130.002 20.4957 130.054 20.5016 130.09 20.5079L130.125 20.5127C131.27 20.6217 134.859 20.6754 135.012 20.6775L135.016 20.6776L135.021 20.6775C135.051 20.6774 138.045 20.6577 140.028 20.5135L140.055 20.5108C140.08 20.5075 140.108 20.5045 140.139 20.5013C140.462 20.467 141.135 20.3957 141.732 19.739C142.229 19.1985 142.373 18.1476 142.388 18.0296L142.39 18.0143C142.394 17.9639 142.5 16.768 142.5 15.5673V14.4448C142.5 13.2441 142.394 12.0482 142.39 11.9979ZM141.621 15.5673C141.621 16.6786 141.524 17.8231 141.515 17.9282C141.477 18.2176 141.326 18.8825 141.084 19.1459C140.71 19.5568 140.326 19.5975 140.046 19.6272C140.012 19.6307 139.981 19.6342 139.952 19.6377C138.034 19.7764 135.153 19.7977 135.02 19.7985C134.871 19.7963 131.334 19.7422 130.224 19.6391C130.167 19.6298 130.105 19.6227 130.041 19.6154C129.712 19.5778 129.262 19.5263 128.916 19.1459L128.908 19.1372C128.67 18.8892 128.523 18.2674 128.486 17.9316C128.479 17.8522 128.379 16.6942 128.379 15.5673V14.4448C128.379 13.3348 128.476 12.1915 128.485 12.0843C128.53 11.7434 128.684 11.1187 128.916 10.8663C129.301 10.4428 129.707 10.3959 129.976 10.3649C130.001 10.3619 130.025 10.3592 130.047 10.3563C131.993 10.2169 134.896 10.1962 135 10.1954C135.104 10.1961 138.006 10.2169 139.934 10.3563C139.958 10.3593 139.984 10.3623 140.012 10.3655C140.288 10.397 140.705 10.4446 141.088 10.8531L141.092 10.8569C141.33 11.1049 141.477 11.7375 141.514 12.08C141.521 12.155 141.621 13.3155 141.621 14.4448V15.5673Z" fill="#828282" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_0">
+                    <rect width="15" height="15" fill="white" transform="translate(127.5 7.5)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
         </div>
 
 
@@ -527,13 +525,13 @@
           </div>
         </div>
       </div>
-      <div class="columns is-justify-content-center my-1">
+
+      <div class="columns is-mobile is-justify-content-center my-1">
         <p>© 2019 - Privacy Policy - Terms and Conditions</p>
       </div>
-
-
-
     </div>
+
+
   </div>
 
 </body>
